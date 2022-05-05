@@ -68,3 +68,49 @@ The Hyperscale (Citus) deployment option supports multi-tenant applications, rea
 - Support different server collation
 
 > A ***collation*** itself specifies the rules for how strings of character data are sorted and compared. The rules for sorting data vary depending on the language and locale.
+
+## Explore big data and analytics
+
+### Azure Synapse Analytics
+
+<p align="center">
+  <img width="150" height="150" src="images/2022-05-05-09-40-53.png">
+</p>
+
+- Brings together enterprise data warehouse and big data analytics
+- Data could be queried using either serverless or provisioned resources at scale.
+- Unified experience to ingest, prepare, manage and serve data for immediate business needs
+
+### Azure HDInsight
+
+<p align="center">
+  <img width="150" height="150" src="images/2022-05-05-09-45-06.png">
+</p>
+
+- Fully managed and open source analytics service.
+- Can run open source frameworks such as: Apache Spark, Apache Hadoop, Apache Kafka, Apache HBase, Apache Storm, and Machine Learning Services.
+- HDInsight also supports a broad range of scenarios such as extraction, transformation, and loading (ETL), data warehousing, machine learning, and IoT.
+
+### Azure Databricks
+
+<p align="center">
+  <img width="150" height="150" src="images/2022-05-05-09-47-36.png">
+</p>
+
+- Help you unlock insights from data to build AI solutions
+- Interactive workspace
+- Supports Apache Spark
+- Supports Python, Scala, R, Java, and SQL
+- Support common data science frameworks and libraries: TensorFlow, PyTorch and sci-kit learn.
+
+### Azure Data Lake Analytics
+
+<p align="center">
+  <img width="150" height="150" src="images/2022-05-05-09-52-00.png">
+</p>
+
+- On-demand analytics job service
+- You write queries to transform and extract insights from your data
+- Can handle jobs of any scale
+- Pay only when job is running
+
