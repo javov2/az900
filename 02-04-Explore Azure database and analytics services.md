@@ -113,4 +113,3 @@ The Hyperscale (Citus) deployment option supports multi-tenant applications, rea
 - You write queries to transform and extract insights from your data
 - Can handle jobs of any scale
 - Pay only when job is running
-
