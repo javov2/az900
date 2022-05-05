@@ -1,62 +1,62 @@
-# Describe core Azure architectural components
+# Describir los componentes principales de la arquitectura de Azure
 
-## Learning objectives
+## Objetivos de aprendizaje
 
-After completing this module, you'll be able to describe the benefits and usage of:
+Después de completar este módulo, usted será capaz de describir los beneficios y el uso de:
 
-- Azure regions, region pairs, and availability zones.
-- Azure resources, resource groups, and Azure Resource Manager.
-- Azure subscriptions and management groups.
+- Regiones de Azure, pares de regiones y zonas de disponibilidad.
+- Recursos de Azure, grupos de recursos y Azure Resource Manager.
+- Las suscripciones de Azure y los grupos de gestión.
 
 ![top-down hierarchy](images/2022-05-02-15-54-11.png)
 
-- Resources: instances of services
-- Resource groups: resources that are combined, act as a logical container. For example all this resources are part of dev, stage, prod.
-- Subscriptions: groups together user accounts and resources that have been created for those user accounts. There are limits or quotas of resources. Organizations can use subscriptions to manage costs and resources that are created.
-- Management groups: Helps to manage access, policy and compliance for multiple subscriptions.
+- Recursos: instancias de servicios
+- Grupos de recursos: recursos que se combinan, actúan como un contenedor lógico. Por ejemplo, todos estos recursos forman parte de dev, stage, prod.
+- Suscripciones: agrupa las cuentas de usuario y los recursos que se han creado para esas cuentas de usuario. Existen límites o cuotas de recursos. Las organizaciones pueden utilizar las suscripciones para gestionar los costes y los recursos que se crean.
+- Grupos de gestión: ayudan a gestionar el acceso, la política y el cumplimiento de varias suscripciones.
 
-### Azure regions
+### Regiones de Azure
 
-![Azure regions
+![Regiones de Azure
 ](images/2022-05-02-16-06-06.png)
 
-- Zonal services: You pin the resource to a specific zone (for example, VMs, managed disks, IP addresses).
-- Zone-redundant services: The platform replicates automatically across zones (for example, zone-redundant storage, SQL Database.
-- Non-regional services: Services are always available from Azure geographies and are resilient to zone-wide outages as well as region-wide outages.
+- Servicios zonales: Anclan el recurso a una zona específica (por ejemplo, VMs, discos gestionados, direcciones IP).
+- Servicios redundantes por zonas: La plataforma se replica automáticamente entre zonas (por ejemplo, almacenamiento redundante por zonas, base de datos SQL.
+- Servicios no regionales: Los servicios están siempre disponibles desde las geografías de Azure y son resistentes a las interrupciones en toda la zona, así como a las interrupciones en toda la región.
 
-#### Region pairs
+#### Pares de regiones
 
-Are azure regions interconnected, so one is the fallback of the another one.
-For example: West US and East US.
+Son regiones de Azure interconectadas, de modo que una es la reserva de la otra.
+Por ejemplo: Oeste de EEUU y Este de EEUU.
 
-## Azure resource groups
+## Grupos de recursos Azure
 
-- Logical grouping
-  - Life cycle
-  - Authorization
+- Agrupación lógica
+  - Ciclo de vida
+  - Autorización
 
-- Tags
+- Etiquetas
 
 ### Azure Resource Manager
 
-![Azure Resource Manager
+![Administrador de recursos de Azure
 ](images/2022-05-02-16-18-38.png)
 
 ## Azure Subscriptions
 
-An Azure subscription is a logical unit of Azure services that links to an Azure account, which is an identity in Azure Active Directory (Azure AD) or in a directory that Azure AD trusts.
+Una suscripción de Azure es una unidad lógica de servicios de Azure que se vincula a una cuenta de Azure, que es una identidad en Azure Active Directory (Azure AD) o en un directorio en el que confía Azure AD.
 
-There are two types of subscription boundaries that you can use:
+Hay dos tipos de límites de suscripción que puede utilizar:
 
-- Billing boundary
-- Access control boundary
+- Límite de facturación
+- Límite de control de acceso
 
-![Customize billing to meet your needs
+![Personalizar la facturación para satisfacer sus necesidades
 ](images/2022-05-02-17-06-59.png)
 
-## Azure management groups
+## Grupos de gestión de Azure
 
-### Hierarchy of management groups and subscriptions
+### Jerarquía de grupos de gestión y suscripciones
 
-![Hierarchy of management groups and subscriptions
+![Jerarquía de grupos de gestión y suscripciones
 ](images/2022-05-02-17-11-13.png)
