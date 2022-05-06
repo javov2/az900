@@ -4,9 +4,9 @@
 
 ### Azure DevOps Services
 
-- Is a suite of services that address every stage in software development lifecycle 
+- Is a suite of services that address every stage in software development lifecycle
 - Azure Repos -> Centralized open source repository: code, reviews, and collaboration.
-- Azure Boards -> agile management suite, include: kanban boards, reports, tickets, and high level epics.
+- Azure Boards -> agile management suite, include: Kanban boards, reports, tickets, and high level epics.
 - Azure Pipelines -> is a CI/CD pipeline automation tool
 - Azure Artifacts -> repository for hosting artifacts (compiled source code)
 - Azure Test Plans -> automated test tool that can be used in a CI/CD pipeline to ensure quality code
