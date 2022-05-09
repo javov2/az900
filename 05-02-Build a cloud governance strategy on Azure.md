@@ -43,7 +43,7 @@ Scopes include:
 
 ## **Azure Policy**
 
-- Azure Policy is a service in Azure that enables you to create, assign, and manage policies that control or audit your resources. 
+- Azure Policy is a service in Azure that enables you to create, assign, and manage policies that control or audit your resources.
 - Azure Policy enables you to define:
   - **Individual policies**
   - **Initiatives** which are a group of related policies
