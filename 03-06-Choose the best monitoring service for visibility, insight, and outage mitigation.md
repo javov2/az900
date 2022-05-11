@@ -27,6 +27,18 @@ On left you can appreciate all data sources, in the center are the central repos
 - You can use data to react to critical events in real time: sending email or SMS alerts to your team or configuring triggers based on thresholds to scale up or down to meet demand
 - There are some services who uses Azure Monitor under hood, for example Azure Application Insights
 
+#### **Application Insights**
+
+- Automatically detect performance anomalies.
+- Help diagnose issues by using powerful analytics tools.
+- See what users actually do with apps.
+- Help continuously improve app performance and usability.
+- Supports a wide variety of platforms, including .NET, Node.js, Java, and Python.
+- Works for apps hosted on-premises, hybrid, or on any public cloud.
+- Integrates with DevOps processes.
+- Has connection points to many development tools.
+- Can monitor and analyze telemetry from mobile apps by integrating with Visual Studio App Center.
+
 ### Azure Service Health
 
 ![Azure Service Health](images/2022-05-06-14-18-30.png)
