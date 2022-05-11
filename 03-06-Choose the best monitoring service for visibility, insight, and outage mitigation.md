@@ -37,7 +37,7 @@ On left you can appreciate all data sources, in the center are the central repos
 - Works for apps hosted on-premises, hybrid, or on any public cloud.
 - Integrates with DevOps processes.
 - Has connection points to many development tools.
-- Can monitor and analyze telemetry from mobile apps by integrating with Visual Studio App Center.
+- Can monitor and analyze **telemetry** from mobile apps by integrating with Visual Studio App Center.
 
 ### Azure Service Health
 

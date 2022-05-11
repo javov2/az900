@@ -1,5 +1,18 @@
 # Azure Fundamental Concepts
 
+## **What are some cloud computing advantages?**
+
+- High availability: Depending on the service-level agreement (SLA) that you choose, your cloud-based apps can provide a continuous user experience with no apparent downtime, even when things go wrong.
+- Scalability: Apps in the cloud can scale vertically and horizontally:
+- Scale vertically to increase compute capacity by adding RAM or CPUs to a virtual machine.
+- Scaling horizontally increases compute capacity by adding instances of resources, such as adding VMs to the configuration.
+- Elasticity: You can configure cloud-based apps to take advantage of autoscaling, so your apps always have the resources they need.
+- Agility: Deploy and configure cloud-based resources quickly as your app requirements change.
+- Geo-distribution: You can deploy apps and data to regional datacenters around the globe, thereby ensuring that your customers always have the best performance in their region.
+- Disaster recovery: By taking advantage of cloud-based backup services, data replication, and geo-distribution, you can deploy your apps with the confidence that comes from knowing that your data is safe in the event of disaster.
+
+## **Capital expenses vs. operating expenses**
+
 - Capital Expenditure (CapEx) is the up-front spending of money on physical infrastructure, and then deducting that up-front expense over time. The up-front cost from CapEx has a value that reduces over time.
 - Operational Expenditure (OpEx) is spending money on services or products now, and being billed for them now. You can deduct this expense in the same year you spend it. There is no up-front cost, as you pay for a service or product as you use it.
 
