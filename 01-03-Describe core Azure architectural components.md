@@ -29,6 +29,13 @@ After completing this module, you'll be able to describe the benefits and usage 
 Are azure regions interconnected, so one is the fallback of the another one.
 For example: West US and East US.
 
+## Availability Zones
+
+- Azure availability zones are physically separate locations within each Azure region that are tolerant to local failures.
+- Azure availability zones are connected by a high-performance network with a round-trip latency of less than 2ms.
+
+![Availability Zones](images/2022-05-11-10-51-24.png)
+
 ## Azure resource groups
 
 - Logical grouping
